@@ -13,10 +13,4 @@ Repo que contiene las evidencias del parcial 01 practico desarrollado por:
 
 # EVIDENCIAS
 
-## 1. WEB
-
-Ruta hacia ...
-
-## 2. MOBILE
-
-Ruta hacia ...
+Para el desarrollo del parcial practico (evidencias), por favor remitirse a nuestra [Wiki](https://github.com/jssosa10/parcial-pruebas/wiki) del repositorio.
