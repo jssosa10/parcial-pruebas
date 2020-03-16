@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <plurals name="subtitle_replies">
-        <item quantity="other">(%d svar)</item>
-        <item quantity="one">…</item>
-    </plurals>
-</resources>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <plurals name="subtitle_replies">
-        <item quantity="other">" (%d ردود)"</item>
-        <item quantity="zero">…</item>
-        <item quantity="one">" (%d رد)"</item>
-    </plurals>
-</resources>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
-    <Spinner android:id="@+id/pm_send_username" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp"/>
-    <EditText android:id="@+id/pm_send_recipient" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp" android:hint="@string/pm_send_hint_recipient" android:scrollHorizontally="true" android:singleLine="true" android:inputType="textNoSuggestions"/>
-    <EditText android:id="@+id/pm_send_subject" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp" android:hint="@string/pm_send_hint_subject" android:scrollHorizontally="true" android:singleLine="true" android:maxLength="100" android:inputType="textNoSuggestions"/>
-    <EditText android:id="@+id/pm_send_text" android:scrollbars="none" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="10dp" android:hint="@string/pm_send_hint_message_text" android:scrollHorizontally="false" android:singleLine="false" android:inputType="none|text|textCapSentences|textMultiLine"/>
-</LinearLayout>

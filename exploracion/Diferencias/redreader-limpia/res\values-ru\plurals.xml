@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <plurals name="subtitle_replies">
-        <item quantity="other"></item>
-        <item quantity="one">(%d ответ)</item>
-        <item quantity="few">(%d ответа)</item>
-        <item quantity="many">(%d ответов)</item>
-    </plurals>
-</resources>

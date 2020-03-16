@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <Spinner android:entries="@array/mainmenu_custom_destination_type" android:id="@+id/dialog_mainmenu_custom_type" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="16dp" android:layout_marginRight="8dp"/>
-    <AutoCompleteTextView android:id="@+id/dialog_mainmenu_custom_value" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="16dp" android:layout_marginRight="16dp" android:layout_marginBottom="16dp" android:completionThreshold="1" android:inputType="textNoSuggestions" android:imeOptions="actionGo">
-        <requestFocus/>
-    </AutoCompleteTextView>
-</LinearLayout>

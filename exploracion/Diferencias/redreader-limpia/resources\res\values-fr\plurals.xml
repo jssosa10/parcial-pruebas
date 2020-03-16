@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <plurals name="subtitle_replies">
-        <item quantity="zero">…</item>
-        <item quantity="one"> (%d réponse)</item>
-        <item quantity="other"> (%d réponses)</item>
-    </plurals>
-</resources>
