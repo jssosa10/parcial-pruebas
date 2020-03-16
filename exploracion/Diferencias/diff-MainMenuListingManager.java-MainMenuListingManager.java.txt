@@ -1,0 +1,22 @@
+274,280c274
+<         if (PrefsUtility.pref_show_subscribed_subreddits_main_menu(appCompatActivity, PreferenceManager.getDefaultSharedPreferences(activity))) {
+<             this.mAdapter.appendToGroup(10, (Item) new GroupedRecyclerViewItemListSectionHeaderView(appCompatActivity.getString(R.string.mainmenu_header_subreddits_subscribed)));
+<             LoadingSpinnerView subredditsLoadingSpinnerView = new LoadingSpinnerView(appCompatActivity);
+<             int paddingPx2 = General.dpToPixels(appCompatActivity, 30.0f);
+<             subredditsLoadingSpinnerView.setPadding(paddingPx2, paddingPx2, paddingPx2, paddingPx2);
+<             this.mAdapter.appendToGroup(11, (Item) new GroupedRecyclerViewItemFrameLayout(subredditsLoadingSpinnerView));
+<         }
+---
+>         PrefsUtility.pref_show_subscribed_subreddits_main_menu(appCompatActivity, PreferenceManager.getDefaultSharedPreferences(activity));
+460c454
+<                     List<String> pinnedSubreddits = PrefsUtility.pref_pinned_subreddits(MainMenuListingManager.this.mActivity, PreferenceManager.getDefaultSharedPreferences(MainMenuListingManager.this.mActivity));
+---
+>                     List pref_pinned_subreddits = PrefsUtility.pref_pinned_subreddits(MainMenuListingManager.this.mActivity, PreferenceManager.getDefaultSharedPreferences(MainMenuListingManager.this.mActivity));
+480,486d473
+<                         }
+<                     }
+<                     if (itemPref.contains(SubredditAction.PIN)) {
+<                         if (pinnedSubreddits.contains(subredditCanonicalName)) {
+<                             menu.add(new SubredditMenuItem(MainMenuListingManager.this.mActivity, R.string.unpin_subreddit, SubredditAction.UNPIN));
+<                         } else {
+<                             menu.add(new SubredditMenuItem(MainMenuListingManager.this.mActivity, R.string.pin_subreddit, SubredditAction.PIN));

@@ -1,0 +1,8 @@
+234,240d233
+<                     if (itemPref.contains(Action.PIN) && post.showSubreddit) {
+<                         if (PrefsUtility.pref_pinned_subreddits(activity, PreferenceManager.getDefaultSharedPreferences(activity)).contains(subredditCanonicalName)) {
+<                             menu.add(new RPVMenuItem(activity, R.string.action_unpin_subreddit, Action.UNPIN));
+<                         } else {
+<                             menu.add(new RPVMenuItem(activity, R.string.action_pin_subreddit, Action.PIN));
+<                         }
+<                     }

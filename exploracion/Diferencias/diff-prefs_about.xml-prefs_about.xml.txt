@@ -1,0 +1,4 @@
+5d4
+<     <Preference android:title="@string/title_changelog" android:key="@string/pref_about_changelog_key" />
+6a6
+>     <Preference android:title="@string/title_changelog" android:key="@string/pref_about_changelog_key" />
