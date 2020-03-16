@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+    <View android:id="@+id/view_reddit_post_divider_top" android:background="?attr/rrListDividerCol" android:layout_width="match_parent" android:layout_height="1px"/>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@+id/reddit_post_layout" android:background="?attr/rrListItemBackgroundCol" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="64dp">
+        <FrameLayout android:background="?attr/rrPostThumbnailBackground" android:layout_width="wrap_content" android:layout_height="match_parent" android:baselineAligned="false">
+            <ImageView android:id="@+id/reddit_post_thumbnail_view" android:layout_width="wrap_content" android:layout_height="match_parent" android:scaleType="center"/>
+            <ImageView android:id="@+id/reddit_post_overlay_icon" android:background="#99000000" android:visibility="gone" android:layout_width="64dp" android:layout_height="match_parent" android:scaleType="center"/>
+        </FrameLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@+id/reddit_post_textLayout" android:paddingLeft="2dp" android:paddingRight="2dp" android:layout_width="0px" android:layout_height="wrap_content" android:layout_weight="1">
+            <TextView android:textSize="14sp" android:textColor="?attr/rrPostTitleCol" android:id="@+id/reddit_post_title" android:paddingLeft="10dp" android:paddingTop="5dp" android:paddingRight="5dp" android:paddingBottom="0dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+            <TextView android:textSize="11sp" android:textColor="#909090" android:gravity="center_vertical" android:id="@+id/reddit_post_subtitle" android:paddingLeft="10dp" android:paddingTop="1dp" android:paddingRight="5dp" android:paddingBottom="5dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/reddit_post_comments_button" android:background="?attr/rrPostCommentsButtonBackCol" android:layout_width="50dp" android:layout_height="match_parent">
+            <ImageView android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginTop="4dp" android:layout_marginRight="8dp" android:layout_marginBottom="2dp" android:src="?attr/rrIconComments" android:scaleType="fitCenter" android:contentDescription="@string/action_comments"/>
+            <TextView android:textSize="11sp" android:textColor="?attr/rrPostCommentsButtonTextCol" android:gravity="center" android:id="@+id/reddit_post_comments_text" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

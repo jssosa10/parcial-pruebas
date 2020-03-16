@@ -1,0 +1,6 @@
+276,277d275
+<                 return context.getString(R.string.mainmenu_frontpage);
+<             case ALL:
+278a277,278
+>             case ALL:
+>                 return context.getString(R.string.mainmenu_frontpage);

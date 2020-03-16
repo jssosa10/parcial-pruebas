@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <org.quantumbadger.redreader.views.webview.WebViewFixed android:id="@id/web_view_fragment_webviewfixed" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <FrameLayout android:id="@id/web_view_fragment_loadingview_frame" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+        <FrameLayout android:id="@id/web_view_fragment_fullscreen_frame" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</FrameLayout>

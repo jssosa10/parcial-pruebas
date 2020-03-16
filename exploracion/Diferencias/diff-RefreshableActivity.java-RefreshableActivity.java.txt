@@ -1,0 +1,4 @@
+66c66
+<             General.recreateActivityNoAnimation(this);
+---
+>             General.recreateActivityNoAnimation(null);

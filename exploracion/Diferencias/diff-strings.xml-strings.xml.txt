@@ -1,0 +1,8 @@
+72c72
+<     <string name="action_external">View in External Browser</string>
+---
+>     <string name="action_external">View in MISO4208 Browser</string>
+265c265
+<     <string name="firstrun_login_message">You are not currently logged in. You can access the account list by selecting Accounts from the menu.</string>
+---
+>     <string name="firstrun_login_message">You are not currently logged in. You can access the account list by selecting MISO4208 from the menu.</string>

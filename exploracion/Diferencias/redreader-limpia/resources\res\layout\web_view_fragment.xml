@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <org.quantumbadger.redreader.views.webview.WebViewFixed android:id="@+id/web_view_fragment_webviewfixed" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <FrameLayout android:id="@+id/web_view_fragment_loadingview_frame" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true"/>
+        <FrameLayout android:id="@+id/web_view_fragment_fullscreen_frame" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+</FrameLayout>

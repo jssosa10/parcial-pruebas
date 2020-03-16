@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/pref_cache_general_header">
+        <Preference android:title="@string/pref_cache_location_title" android:key="@string/pref_cache_location_key" />
+        <ListPreference android:entries="@array/pref_cache_autorefresh_age" android:title="@string/pref_cache_rerequest_postlist_age_title" android:key="@string/pref_cache_rerequest_postlist_age_key" android:defaultValue="1" android:entryValues="@array/pref_cache_autorefresh_age_return" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_cache_precache_images_header">
+        <CheckBoxPreference android:title="@string/pref_cache_precache_images_title" android:key="@string/pref_cache_precache_images_key" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/pref_cache_precache_images_wifionly_title" android:key="@string/pref_cache_precache_images_wifionly_key" android:dependency="@string/pref_cache_precache_images_key" android:defaultValue="true" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_cache_precache_comments_header">
+        <CheckBoxPreference android:title="@string/pref_cache_precache_comments_title" android:key="@string/pref_cache_precache_comments_key" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/pref_cache_precache_comments_wifionly_title" android:key="@string/pref_cache_precache_comments_wifionly_key" android:dependency="@string/pref_cache_precache_comments_key" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_cache_pruning">
+        <ListPreference android:entries="@array/pref_cache_maxage" android:title="@string/pref_cache_maxage_listing_title" android:key="@string/pref_cache_maxage_listing_key" android:defaultValue="168" android:entryValues="@array/pref_cache_maxage_return" />
+        <ListPreference android:entries="@array/pref_cache_maxage" android:title="@string/pref_cache_maxage_thumb_title" android:key="@string/pref_cache_maxage_thumb_key" android:defaultValue="168" android:entryValues="@array/pref_cache_maxage_return" />
+        <ListPreference android:entries="@array/pref_cache_maxage" android:title="@string/pref_cache_maxage_image_title" android:key="@string/pref_cache_maxage_image_key" android:defaultValue="24" android:entryValues="@array/pref_cache_maxage_return" />
+        <ListPreference android:entries="@array/pref_cache_maxage" android:title="@string/pref_cache_maxage_entry_title" android:key="@string/pref_cache_maxage_entry_key" android:defaultValue="168" android:entryValues="@array/pref_cache_maxage_return" />
+    </PreferenceCategory>
+</PreferenceScreen>

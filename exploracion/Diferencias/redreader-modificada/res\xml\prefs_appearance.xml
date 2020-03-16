@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:title="@string/pref_appearance_left_handed_title" android:key="@string/pref_appearance_left_handed_key" android:defaultValue="false" />
+    <PreferenceCategory android:title="@string/pref_appearance_theme_header">
+        <ListPreference android:entries="@array/pref_appearance_theme" android:title="@string/pref_appearance_theme_title" android:key="@string/pref_appearance_theme_key" android:defaultValue="red" android:entryValues="@array/pref_appearance_theme_return" />
+        <ListPreference android:entries="@array/pref_appearance_navbar_color_options" android:title="@string/pref_appearance_navbar_color_title" android:key="@string/pref_appearance_navbar_color_key" android:defaultValue="black" android:entryValues="@array/pref_appearance_navbar_color_options_return" />
+        <CheckBoxPreference android:title="@string/pref_appearance_hide_android_status_title" android:key="@string/pref_appearance_hide_android_status_key" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/pref_appearance_bottom_toolbar_title" android:key="@string/pref_appearance_bottom_toolbar_key" android:defaultValue="false" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_appearance_locale_header">
+        <ListPreference android:entries="@array/pref_appearance_langforce" android:title="@string/pref_appearance_langforce_title" android:key="@string/pref_appearance_langforce_key" android:defaultValue="auto" android:entryValues="@array/pref_appearance_langforce_return" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_appearance_font_header">
+        <ListPreference android:entries="@array/pref_appearance_fontscale" android:title="@string/pref_appearance_fontscale_posts_title" android:key="@string/pref_appearance_fontscale_posts_key" android:defaultValue="1" android:entryValues="@array/pref_appearance_fontscale_return" />
+        <ListPreference android:entries="@array/pref_appearance_fontscale" android:title="@string/pref_appearance_fontscale_comments_title" android:key="@string/pref_appearance_fontscale_comments_key" android:defaultValue="1" android:entryValues="@array/pref_appearance_fontscale_return" />
+        <ListPreference android:entries="@array/pref_appearance_fontscale" android:title="@string/pref_appearance_fontscale_inbox_title" android:key="@string/pref_appearance_fontscale_inbox_key" android:defaultValue="1" android:entryValues="@array/pref_appearance_fontscale_return" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_appearance_tabletmode_header">
+        <ListPreference android:entries="@array/pref_appearance_twopane" android:title="@string/pref_appearance_twopane_title" android:key="@string/pref_appearance_twopane_key" android:defaultValue="auto" android:entryValues="@array/pref_appearance_twopane_return" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/pref_appearance_comments_header">
+        <CheckBoxPreference android:title="@string/pref_appearance_comments_show_floating_toolbar_title" android:key="@string/pref_appearance_comments_show_floating_toolbar_key" android:defaultValue="true" />
+        <MultiSelectListPreference android:entries="@array/pref_appearance_comment_header_items" android:title="@string/pref_appearance_comment_header_items_title" android:key="@string/pref_appearance_comment_header_items_key" android:defaultValue="@array/pref_appearance_comment_header_items_default" android:dialogTitle="@string/pref_appearance_comment_header_items_title" android:entryValues="@array/pref_appearance_comment_header_items_return" />
+        <CheckBoxPreference android:title="@string/pref_appearance_linkbuttons_title" android:key="@string/pref_appearance_linkbuttons_key" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/pref_appearance_link_text_clickable_title" android:key="@string/pref_appearance_link_text_clickable_key" android:defaultValue="true" />
+        <CheckBoxPreference android:title="@string/pref_appearance_indentlines_title" android:key="@string/pref_appearance_indentlines_key" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>

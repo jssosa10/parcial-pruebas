@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textSize="14sp" android:textColor="?attr/rrPostFlingTextCol" android:layout_gravity="left" android:id="@+id/reddit_post_fling_text_right" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="24dp" android:text="Placeholder" android:textAllCaps="true"/>
+    <TextView android:textSize="14sp" android:textColor="?attr/rrPostFlingTextCol" android:layout_gravity="right" android:id="@+id/reddit_post_fling_text_left" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="24dp" android:text="Placeholder" android:textAllCaps="true"/>
+</FrameLayout>

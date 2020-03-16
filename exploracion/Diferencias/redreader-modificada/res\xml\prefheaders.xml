@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<preference-headers
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <header android:title="@string/prefs_category_appearance" android:fragment="org.quantumbadger.redreader.settings.SettingsFragment">
+        <extra android:name="panel" android:value="appearance" />
+    </header>
+    <header android:title="@string/prefs_category_behaviour" android:fragment="org.quantumbadger.redreader.settings.SettingsFragment">
+        <extra android:name="panel" android:value="behaviour" />
+    </header>
+    <header android:title="@string/prefs_category_images_video" android:fragment="org.quantumbadger.redreader.settings.SettingsFragment">
+        <extra android:name="panel" android:value="images_video" />
+    </header>
+    <header android:title="@string/prefs_category_cache" android:fragment="org.quantumbadger.redreader.settings.SettingsFragment">
+        <extra android:name="panel" android:value="cache" />
+    </header>
+    <header android:title="@string/prefs_category_network" android:fragment="org.quantumbadger.redreader.settings.SettingsFragment">
+        <extra android:name="panel" android:value="network" />
+    </header>
+    <header android:title="@string/prefs_category_menus" android:fragment="org.quantumbadger.redreader.settings.SettingsFragment">
+        <extra android:name="panel" android:value="menus" />
+    </header>
+    <header android:title="@string/prefs_category_about" android:fragment="org.quantumbadger.redreader.settings.SettingsFragment">
+        <extra android:name="panel" android:value="about" />
+    </header>
+</preference-headers>

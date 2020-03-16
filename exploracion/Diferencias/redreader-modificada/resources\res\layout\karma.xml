@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content" android:baselineAligned="false">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:padding="10dp" android:layout_width="0px" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:textSize="12sp" android:textColor="?attr/rrListHeaderTextCol" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/karma_link" android:textAllCaps="true"/>
+        <TextView android:textSize="18sp" android:layout_gravity="center" android:id="@+id/layout_karma_text_link" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Error"/>
+    </LinearLayout>
+    <View android:background="?attr/rrListDividerCol" android:layout_width="1dp" android:layout_height="match_parent"/>
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:padding="10dp" android:layout_width="0px" android:layout_height="wrap_content" android:layout_weight="1">
+        <TextView android:textSize="12sp" android:textColor="?attr/rrListHeaderTextCol" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/karma_comment" android:textAllCaps="true"/>
+        <TextView android:textSize="18sp" android:layout_gravity="center" android:id="@+id/layout_karma_text_comment" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Error"/>
+    </LinearLayout>
+</LinearLayout>

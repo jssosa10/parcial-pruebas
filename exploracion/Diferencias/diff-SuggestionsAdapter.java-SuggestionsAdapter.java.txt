@@ -1,0 +1,5 @@
+451a452,455
+>     	at jadx.core.ProcessClass.lambda$processDependencies$0(ProcessClass.java:49)
+>     	at java.util.ArrayList.forEach(Unknown Source)
+>     	at jadx.core.ProcessClass.processDependencies(ProcessClass.java:49)
+>     	at jadx.core.ProcessClass.process(ProcessClass.java:35)

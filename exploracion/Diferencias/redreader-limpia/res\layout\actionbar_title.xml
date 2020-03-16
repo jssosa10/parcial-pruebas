@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_vertical" android:id="@id/actionbar_title_outer" android:background="@drawable/rr_actionbar_selector" android:paddingLeft="8.0dip" android:paddingRight="16.0dip" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/actionbar_title_back_image" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_margin="8.0dip" android:src="@drawable/ic_action_back_dark" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/actionbar_title_text" android:paddingLeft="8.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:maxLines="1" android:scrollHorizontally="true" android:singleLine="true" android:layout_toRightOf="@id/actionbar_title_back_image" android:layout_centerVertical="true" style="@style/RR.Toolbar.TitleText" />
+</RelativeLayout>

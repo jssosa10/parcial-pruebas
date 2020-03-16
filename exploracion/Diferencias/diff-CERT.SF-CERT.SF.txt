@@ -1,0 +1,16 @@
+3c3
+< SHA1-Digest-Manifest: Obs/W9TbTr/sFopMzrw4IhR11/4=
+---
+> SHA1-Digest-Manifest: iEg698vElbfLnHZNqfsvWURxC+M=
+124c124
+< SHA1-Digest: 3wm7WwWRjVVzut/6QnNytiBVO1M=
+---
+> SHA1-Digest: n6mjs026qe0EBvPtdznGrFn8RrA=
+4491c4491
+< SHA1-Digest: lvj+bEgKz8j3VGLuSGUsAVGHRwM=
+---
+> SHA1-Digest: WbcA751cRX+nv9uIrPYVrLsidJM=
+4512c4512
+< SHA1-Digest: cr44+Mmb5RcecWkc+GTHuGKgDMs=
+---
+> SHA1-Digest: brAQaD0O22d6zivtZknlQQwXVas=
